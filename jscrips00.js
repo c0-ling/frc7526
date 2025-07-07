@@ -430,7 +430,7 @@ const players = {
 <p>你深吸一口氣，強迫自己冷靜下來。</p>
 <p>你環顧四周，發現地板上刻著一道題目</p>
       <img src="img/math4.png" alt="4">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "肯定簡單多了ㄅ",
       type: "countdown",
       timeLimit: 420,
       answer: "4"
@@ -523,7 +523,7 @@ const players = {
 <p>你的指尖逐漸失去知覺，但大腦仍不放棄推理。</p>
 <p><strong>想離開，就不能凍死在這裡。</strong></p>
       <img src="img/math5.png" alt="5">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "加油",
       type: "countdown",
       timeLimit: 420,
       answer: "4"
@@ -612,7 +612,7 @@ const players = {
 <p><strong>你的聲音在空間中迴盪，裝置不斷判讀。</strong></p>
 <p>接受現實的你嘗試解出放在桌上的題目。</p> 
       <img src="img/math6.png" alt="6">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "你成績很好ㄅ",
       type: "countdown",
       timeLimit: 420,
       answer: "4"
@@ -855,7 +855,7 @@ const players = {
 <p>狹窄的空間讓你恐慌不已。</p> 
 <p><strong>你顫抖的雙手店開了電子螢幕上的題目。</strong></p>
       <img src="img/math7.png" alt="7">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "你們可以的",
       type: "countdown",
       timeLimit: 420,
       answer: "4"
@@ -941,7 +941,7 @@ const players = {
 <p>塵土從頭頂落下，你知道時間已經不多。</p>
 <p><strong>這不是警告，這是倒數。</strong></p>
       <img src="img/math8.png" alt="8">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "你需要???",
       type: "countdown",
       timeLimit: 420,
       answer: "4"

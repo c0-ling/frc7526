@@ -15,7 +15,7 @@
 } */
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px 15px 30px 15px;
   background-color: #121212;
   color: #eee;
   font-family: "微軟正黑體", Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 
 #app-container {
   width: 600px;          /* 固定寬度，不要 max-width */
-  margin: 40px auto 0 auto; 
+  margin: 40px auto 40px auto; 
   padding: 25px;
   background-color: #1f1f1f;
   border-radius: 10px;
