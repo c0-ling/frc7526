@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>FRC7526 Challenge</title>
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+  <div id="app-container">
+    <h1 id="title">Welcome to Future Robotics Corp.</h1>
+    <p id="riddle">請輸入你的名字以登入入職考核系統（要打全名）</p>
+
+    <input type="text" id="answerInput" placeholder="輸入" autocomplete="off" />
+    <button id="submitBtn" onclick="checkAnswer()">提交</button>
+    <button id="hintButton" onclick="showHint()" style="display:none">顯示提示</button>
+
+    <p id="hint" class="hint-text"></p>
+    <p id="result" class="result-text"></p>
+
+    <!-- 劇情說明區塊 -->
+    <div id="storySection" style="display:none;">
+      <p id="storyText"></p>
+      <button id="startChallengeBtn" onclick="startChallenge()">我已了解風險，並同意簽署切結書</button>
+    </div>
+
+    <!-- 挑戰題目專區 -->
+    <div id="challengeSection" style="display:none;">
+      <h2 id="challengeTitle"></h2>
+      <div id="challengeContent"></div>
+      <input type="text" id="challengeAnswer" placeholder="請輸入答案" autocomplete="off" />
+      <button id="challengeSubmitBtn" onclick="submitChallengeAnswer()">提交答案</button>
+      <button id="challengeHintBtn" onclick="showChallengeHint()" style="display:none">顯示提示</button>
+      <p id="challengeHint" class="hint-text"></p>
+      <p id="challengeResult" class="result-text"></p>
+      <p id="timer" class="timer-text"></p>
+    </div>
+
+    <!-- YOU ARE DEAD 畫面 -->
+    <div id="deadScreen" style="display:none;">
+      <h1>💀 YOU ARE DEAD 💀</h1>
+      <button onclick="returnToChallenge()">返回挑戰</button>
+    </div>
+  </div>
+  <script src="jscrips00.js"></script>
+  <script src="jscrips.js"></script>
+</body>
+</html>
