@@ -134,7 +134,7 @@ function loadChallengeLevel() {
     if (currentLevel >= players[currentPlayer].length) {
     // finish
         gameState = "end";
-        titleEl.textContent = "🎉 恭喜你通過密室關！";
+        titleEl.textContent = "🎉 恭喜你通過密室關卡！";
         riddleEl.innerHTML = `<p>你們費盡心力，終於合力解開了那最後一道謎題。</p>
 <p>門打開的瞬間，強光湧入，你們逃出了那令人窒息的密室。</p>
 <p>身體雖疲憊，心中卻燃起一絲希望。</p>
