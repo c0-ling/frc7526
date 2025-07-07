@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "微軟正黑體", Arial, sans-serif;
   background-color: #121212;
   color: #eee;
@@ -7,12 +7,26 @@ body {
   margin: 0 auto;
 }
 
-#app-container {
-  width: 100%;
-  max-width: 600px; 
+#app-container { 
   background-color: #1f1f1f;
   border-radius: 10px;
   padding: 25px;
+  box-shadow: 0 0 15px #00ffcc;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #eee;
+  font-family: "微軟正黑體", Arial, sans-serif;
+}
+
+#app-container {
+  width: 600px;          /* 固定寬度，不要 max-width */
+  margin: 40px auto 0 auto; 
+  padding: 25px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
   box-shadow: 0 0 15px #00ffcc;
 }
 
