@@ -159,22 +159,16 @@ const players = {
 <p>此刻，空氣開始變得稀薄，思緒卻要越來越清晰。</p>
 <p><strong>每一秒都是賭注。</strong>你盯著題目——這將決定你是否能活著離開。</p>
       <img src="img/math1.png" alt="1">`,
-      hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
       answer: "2"
     },
     {
-      title: "挑戰倒數",
+      title: "快要通過",
       question: "你被困在一個房間，找到線索輸入密碼逃脫",
       hint: "別漏掉任何可互動的東西",
-      type: "escape",
-      items: [
-        { name: "櫃子", content: "櫃子裡有一張紙條：密碼是1234" },
-        { name: "衣服", content: "衣服口袋是空的" },
-    // 你可以加更多物品
-    ],
-  answer: "1234"
+      type: "text",
+      answer: "1234"
     }
   ],
   "李宜蓁": [
@@ -260,7 +254,7 @@ const players = {
       hint: "你還有時間看提示阿",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "-2"
     },
     {
       title: "密室逃脫：房間探索",
