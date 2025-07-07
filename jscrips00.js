@@ -269,7 +269,7 @@ const players = {
   answer: "1234"
     }
   ],
-  "歐書辰": [
+  "莊博凱": [
     {
       title: "示範題",
       question: `<span style ="color:rgb(243, 101, 228)"><strong>少女心姐姐</span></strong>🩷的本名叫什麼？`,
@@ -339,7 +339,7 @@ const players = {
 <p>時間已所剩無幾，但你仍冷靜地分析。</p> 
 <p><strong>這裡，錯誤就是死亡。</strong></p>
       <img src="img/math3.png" alt="3">`,
-      hint: "這基本題，趕快去救你隊友",
+      hint: "這需要提示?",
       type: "countdown",
       timeLimit: 420,
       answer: "4"
@@ -412,7 +412,7 @@ const players = {
 <p><strong>來自：FRaCtal 系統</strong></p>
 <hr>
 <p>挑戰者，</p>
-<p>恭喜你利用 <strong>超強的邏輯推理找出言語中的關鍵</strong> 並解出了答案。</p> 
+<p>恭喜你利用 <strong>凱薩密碼解出正確的數字</strong> 並解出了答案。</p> 
 <p>但這只是開始，你即將面對新的挑戰。</p>
 <p>你現在身處在<strong>一間大型烤箱</strong>。</p> 
 <p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
@@ -424,7 +424,6 @@ const players = {
 <p>系統將記錄所有互動。任何非授權的試圖連線，將導致處置。</p>
 <p><i>Hint：每一位參與者，都是碎形的一部分。</i></p>
 <hr>
-
 <p>你能聽見機械點火裝置的滴答聲。</p> 
 <p>這一刻的你，腦中只能思考一件事：</p>
 <p><strong>在它啟動前，逃出去。</strong></p>
@@ -508,7 +507,7 @@ const players = {
 <p><strong>來自：FRaCtal 系統</strong></p>
 <hr>
 <p>挑戰者，</p>
-<p>恭喜你利用 <strong>超強的邏輯推理找出言語中的關鍵</strong> 並解出了答案。</p> 
+<p>恭喜你利用 <strong>通靈技巧找出了對應的人</strong> 並解出了答案。</p> 
 <p>但這只是開始，你即將面對新的挑戰。</p>
 <p>你現在身處在<strong>大型冷凍庫</strong>。</p> 
 <p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
@@ -520,11 +519,10 @@ const players = {
 <p>系統將記錄所有互動。任何非授權的試圖連線，將導致處置。</p>
 <p><i>Hint：每一位參與者，都是碎形的一部分。</i></p>
 <hr>
-
 <p>你開始顫抖，但也看到面前的冰牆上刻有一串奇怪的數字與文字。</p> 
 <p>你的指尖逐漸失去知覺，但大腦仍不放棄推理。</p>
 <p><strong>想離開，就不能凍死在這裡。</strong></p>
-      <img src="img/math0.png" alt="0">`,
+      <img src="img/math5.png" alt="5">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
@@ -599,7 +597,7 @@ const players = {
 <p><strong>來自：FRaCtal 系統</strong></p>
 <hr>
 <p>挑戰者，</p>
-<p>恭喜你利用 <strong>超強的邏輯推理找出言語中的關鍵</strong> 並解出了答案。</p> 
+<p>恭喜你利用 <strong>找到對應的著作</strong> 並解出了答案。</p> 
 <p>但這只是開始，你即將面對新的挑戰。</p>
 <p>你現在身處在<strong>一間普通的房間</strong>。</p> 
 <p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
@@ -613,7 +611,7 @@ const players = {
 <p>你嘗試大喊大叫。</p> 
 <p><strong>你的聲音在空間中迴盪，裝置不斷判讀。</strong></p>
 <p>接受現實的你嘗試解出放在桌上的題目。</p> 
-      <img src="img/math0.png" alt="0">`,
+      <img src="img/math6.png" alt="6">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
@@ -683,7 +681,7 @@ const players = {
       timeLimit: 360
     },
     {
-      title: "探索題",
+      title: "進入新房間",
       question: `<img src="img/math0.png" alt="0">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
@@ -703,7 +701,7 @@ const players = {
   answer: "1234"
     }
   ],
-  "莊博凱": [
+  "歐書辰": [
     {
       title: "示範題",
       question: "我們創隊的隊長叫什麼？",
@@ -742,7 +740,29 @@ const players = {
     },
     {
       title: "探索題",
-      question: `<img src="img/math0.png" alt="0">`,
+      question: `<p>你走進房間，發現這裡的空間狹小，並且布滿了青苔。</p>
+<p>牆上有個電子螢幕。</p> 
+<p>畫面顯示：<strong>倒數 7 分鐘</strong></p> 
+<p>同時，你的手機也震動了起來</p> 
+<h3>📡 你收到了一則訊息</h3> 
+<p><strong>來自：FRaCtal 系統</strong></p>
+<hr>
+<p>挑戰者，</p>
+<p>恭喜你利用 <strong>找到對應的著作</strong> 並解出了答案。</p> 
+<p>但這只是開始，你即將面對新的挑戰。</p>
+<p>你現在身處在<strong>一間普通的房間</strong>。</p> 
+<p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
+<p>你有 <strong>7 分鐘</strong> 的時間可以逃脫出去。</p>
+<p><strong>7 分鐘後，房門會徹底鎖死。</strong></p> 
+<p>你必須依照提示，用正確地大聲念出解答。</p> 
+<p><strong>請注意：</strong>本裝置僅允許使用 <strong>「FRaCtal」</strong> 應用程式。</p>
+<p>系統將記錄所有互動。任何非授權的試圖連線，將導致處置。</p>
+<p><i>Hint：每一位參與者，都是碎形的一部分。</i></p>
+<hr>
+<p>你嘗試大喊大叫。</p> 
+<p><strong>你的聲音在空間中迴盪，裝置不斷判讀。</strong></p>
+<p>接受現實的你嘗試解出放在桌上的題目。</p> 
+      <img src="img/math6.png" alt="6">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
@@ -812,8 +832,29 @@ const players = {
     ],
     },
     {
-      title: "探索題",
-      question: `<img src="img/math0.png" alt="0">`,
+      title: "進入新房間",
+      question:`<p>你走進房間，發現這裡的空間狹小，並且布滿了青苔。</p>
+<p>牆上有個電子螢幕。</p> 
+<p>畫面顯示：<strong>倒數 7 分鐘</strong></p> 
+<p>同時，你的手機也震動了起來</p> 
+<h3>📡 你收到了一則訊息</h3> 
+<p><strong>來自：FRaCtal 系統</strong></p>
+<hr>
+<p>挑戰者，</p>
+<p>恭喜你利用 <strong>數量與英文名稱的關係</strong> 解出了答案。</p> 
+<p>但這只是開始，你即將面對新的挑戰。</p>
+<p>你現在身處在<strong>一間普通的房間</strong>。</p> 
+<p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
+<p>你有 <strong>7 分鐘</strong> 的時間可以逃脫出去。</p>
+<p><strong>7 分鐘後，雨水會填滿整個水井。</strong></p> 
+<p>你必須依照提示，在電子螢幕上輸入正確密碼。</p> 
+<p><strong>請注意：</strong>本裝置僅允許使用 <strong>「FRaCtal」</strong> 應用程式。</p>
+<p>系統將記錄所有互動。任何非授權的試圖連線，將導致處置。</p>
+<p><i>Hint：每一位參與者，都是碎形的一部分。</i></p>
+<hr>
+<p>狹窄的空間讓你恐慌不已。</p> 
+<p><strong>你顫抖的雙手店開了電子螢幕上的題目。</strong></p>
+      <img src="img/math7.png" alt="7">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
@@ -878,8 +919,28 @@ const players = {
       content:'<img src="img/guess.jpg" alt="人">'
     },
     {
-      title: "探索題",
-      question: `<img src="img/math0.png" alt="0">`,
+      title: "新的挑戰",
+      question: `<p>你剛踏進這個區域，天花板傳來嘎嘎作響的聲音。</p>
+<p>警報器亮起：「建築結構不穩，預估倒塌時間： 7 分鐘」</p> 
+<p>同時，你的手機也震動了起來</p> 
+<h3>📡 你收到了一則訊息</h3> 
+<p><strong>來自：FRaCtal 系統</strong></p>
+<hr>
+<p>挑戰者，</p>
+<p>恭喜你利用 <strong>社群媒體找到對應人物</strong> 並解出了答案。</p> 
+<p>但這只是開始，你即將面對新的挑戰。</p>
+<p>你現在身處在<strong>一間快要坍塌的房間</strong>。</p> 
+<p>從你跨過門口的那一刻起，<strong>倒數計時已經開始。</strong></p> 
+<p>你有 <strong>7 分鐘</strong> 的時間可以逃脫出去。</p>
+<p><strong>7 分鐘後，這間房間會徹底坍塌。</strong></p> 
+<p>你必須依照提示，輸入正確的答案在電子鎖。</p> 
+<p><strong>請注意：</strong>本裝置僅允許使用 <strong>「FRaCtal」</strong> 應用程式。</p>
+<p>系統將記錄所有互動。任何非授權的試圖連線，將導致處置。</p>
+<p><i>Hint：每一位參與者，都是碎形的一部分。</i></p>
+<hr>
+<p>塵土從頭頂落下，你知道時間已經不多。</p>
+<p><strong>這不是警告，這是倒數。</strong></p>
+      <img src="img/math8.png" alt="8">`,
       hint: "這基本題，趕快去救你隊友",
       type: "countdown",
       timeLimit: 420,
