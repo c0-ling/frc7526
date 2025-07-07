@@ -342,7 +342,7 @@ const players = {
       hint: "這需要提示?",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "ton"
     },
     {
       title: "密室逃脫：房間探索",
@@ -433,7 +433,7 @@ const players = {
       hint: "肯定簡單多了ㄅ",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "風"
     },
     {
       title: "密室逃脫：房間探索",
@@ -858,7 +858,7 @@ const players = {
       hint: "你們可以的",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "cold"
     },
     {
       title: "密室逃脫：房間探索",
