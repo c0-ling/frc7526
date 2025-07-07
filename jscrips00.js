@@ -74,10 +74,10 @@ const players = {
 <p>桌面被層層灰塵覆蓋，唯獨中央一塊區域異常乾淨——那是一塊閃著微光的金屬板。</p>
 <p>你彎下腰，看見上面刻著一道題目。</p>
     <img src="img/math0.png" alt="0">`,
-      hint: "看什麼提示，趕緊解，3碼",
+      hint: "這不是人",
       type: "countdown",
       timeLimit: 420,
-      answer: "560"
+      answer: "詩經"
     },
     {
       title: "密室逃脫：房間探索",
@@ -523,10 +523,10 @@ const players = {
 <p>你的指尖逐漸失去知覺，但大腦仍不放棄推理。</p>
 <p><strong>想離開，就不能凍死在這裡。</strong></p>
       <img src="img/math5.png" alt="5">`,
-      hint: "加油",
+      hint: "加油，提示是女性古人",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "李清照"
     },
     {
       title: "密室逃脫：房間探索",
@@ -612,10 +612,10 @@ const players = {
 <p><strong>你的聲音在空間中迴盪，裝置不斷判讀。</strong></p>
 <p>接受現實的你嘗試解出放在桌上的題目。</p> 
       <img src="img/math6.png" alt="6">`,
-      hint: "你成績很好ㄅ",
+      hint: "應該還行",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "shadow"
     },
     {
       title: "密室逃脫：房間探索",
@@ -944,7 +944,7 @@ const players = {
       hint: "你需要???",
       type: "countdown",
       timeLimit: 420,
-      answer: "4"
+      answer: "560"
     },
     {
       title: "密室逃脫：房間探索",
