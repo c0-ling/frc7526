@@ -86,120 +86,123 @@ a.challenge-link:hover {
 }
  */
  /* ===== 通用設定 ===== */
-html {
-  font-size: 16px;
-  font-family: "Arial", "Microsoft JhengHei", sans-serif;
-  color: #ffffff;
-  background-color: #121212;
-}
-
 body {
-  margin: 0;
+  font-family: "微軟正黑體", Arial, sans-serif;
+  background-color: #121212;
+  color: #eee;
   padding: 20px;
-  display: flex;
-  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;  /* 統一根字體大小 */
 }
 
 #app-container {
-  max-width: 600px;
-  width: 100%;
-  background-color: #1e1e1e;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-}
-
-h1, h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 15px #00ffcc;
 }
 
 input[type="text"] {
-  width: 100%;
-  padding: 0.6rem;
+  width: 100%;   /* 改成百分比：手機不會爆 */
+  padding: 10px;
+  margin: 10px 0;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 6px;
   border: none;
-  margin-bottom: 1rem;
 }
 
 button {
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
+  background-color: #00b894;
   border: none;
-  background-color: #4CAF50;
-  color: #fff;
+  color: white;
+  padding: 10px 20px;
   font-size: 1rem;
+  border-radius: 6px;
   cursor: pointer;
-  margin-right: 0.5rem;
+  margin: 5px 5px 5px 0;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #019875;
+}
+
+.hint-text {
+  color: #82ccdd;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.result-text {
+  color: #ff7675;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.timer-text {
+  font-size: 1.25rem;
+  color: #ffeaa7;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#challengeContent img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+a.challenge-link {
+  color: #00cec9;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.challenge-link:hover {
+  color: #81ecec;
 }
 
 #challengeContent {
-  font-size: 1.25rem;
-  line-height: 1.8;
-  margin-bottom: 2rem;
-  color: #ffeaa7;
+  margin-bottom: 30px;
+  font-size: 1.1rem;    /* 改rem，手機不會爆字 */
+  line-height: 1.6;
+  color: #eee;          /* 維持原配色 */
 }
 
 #challengeAnswer {
+  margin-bottom: 15px;
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
-.hint-text, .result-text, .timer-text {
-  font-size: 0.95rem;
-  color: #ccc;
-}
-
-#deadScreen h1 {
-  font-size: 2rem;
-  color: #ff7675;
-}
-
-/* ===== 手機專用調整 ===== */
+/* === 手機響應式 === */
 @media (max-width: 600px) {
-  h1, h2 {
-    font-size: 1.5rem;
+  body {
+    padding: 10px;
   }
 
-  p {
+  #app-container {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  input[type="text"] {
     font-size: 0.95rem;
+    padding: 8px;
   }
 
   #challengeContent {
     font-size: 1rem;
   }
 
-  button {
-    font-size: 0.9rem;
-    padding: 0.5rem 0.8rem;
-  }
-
-  input[type="text"] {
-    font-size: 0.95rem;
-    padding: 0.5rem;
+  .timer-text {
+    font-size: 1rem;
   }
 }
-
-/* ===== 超小螢幕 ===== */
-@media (max-width: 400px) {
-  h1, h2 {
-    font-size: 1.3rem;
-  }
-
-  #challengeContent {
-    font-size: 0.9rem;
-  }
-} 
-/*trya*/
