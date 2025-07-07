@@ -135,7 +135,7 @@ function loadChallengeLevel() {
     // finish
         gameState = "end";
         titleEl.textContent = "🎉 恭喜你通過全部測驗！";
-        riddleEl.innerHTML = `"你只剩下最後一關，敬請期待！"`;
+        riddleEl.innerHTML = `你只剩下最後2關，敬請期待！`;
 
         challengeSection.style.display = "none";
         answerInput.style.display = "none";
