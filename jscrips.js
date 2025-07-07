@@ -134,9 +134,30 @@ function loadChallengeLevel() {
     if (currentLevel >= players[currentPlayer].length) {
     // finish
         gameState = "end";
-        titleEl.textContent = "🎉 恭喜你通過全部測驗！";
-        riddleEl.innerHTML = `你只剩下最後2關，敬請期待！`;
+        titleEl.textContent = "🎉 恭喜你通過密室關！";
+        riddleEl.innerHTML = `<p>你們費盡心力，終於合力解開了那最後一道謎題。</p>
+<p>門打開的瞬間，強光湧入，你們逃出了那令人窒息的密室。</p>
+<p>身體雖疲憊，心中卻燃起一絲希望。</p>
 
+<p>就在此時，手機震動了。</p>
+
+<h3>📡 你收到了一則訊息</h3>
+<p><strong>來自：FRaCtal 系統</strong></p>
+<hr>
+<p><strong>挑戰者們：</strong></p>
+
+<p>你們已成功跨越所有階段，證明了你們的智慧、勇氣與團結合作的強大。</p>
+
+<p>但現在，真正的最後試煉降臨——<br>
+<strong>雲朵挑戰賽</strong>，正等待著你們的到來。</p>
+
+<p>闖過它，你們將掌握<br>
+進入未來的關鍵——<strong>錄取通知書</strong>的最終線索。</p>
+
+<p><strong>我一直在看著你們。</strong><br>
+別讓我失望。</p>
+<img src="img/eyeblow.png" alt="答案">
+<hr>`;
         challengeSection.style.display = "none";
         answerInput.style.display = "none";
         submitBtn.style.display = "none";
