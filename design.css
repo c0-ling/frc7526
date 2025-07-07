@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: "微軟正黑體", Arial, sans-serif;
   background-color: #121212;
   color: #eee;
@@ -77,16 +77,16 @@ a.challenge-link:hover {
 
 #challengeContent {
   margin-bottom: 30px;
-  font-size: 16px;     /* ← 這行就是改文字大小 */
-/*   line-height: 1.6;    /* ← 可選：行距讓字更好讀 */
-/* }
+  font-size: 16px;     
+  line-height: 1.6;    
+ }
 
 #challengeAnswer {
   margin-bottom: 15px;
-}
- */
+} 
+
  /* ===== 通用設定 ===== */
-body {
+/* body {
   font-family: "微軟正黑體", Arial, sans-serif;
   background-color: #121212;
   color: #eee;
@@ -94,7 +94,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   font-size: 16px;  /* 統一根字體大小 */
-}
+/* }
 
 #app-container {
   background-color: #1f1f1f;
@@ -105,7 +105,7 @@ body {
 
 input[type="text"] {
   width: 100%;   /* 改成百分比：手機不會爆 */
-  padding: 10px;
+/*   padding: 10px;
   margin: 10px 0;
   font-size: 1rem;
   border-radius: 6px;
@@ -168,18 +168,18 @@ a.challenge-link:hover {
 
 #challengeContent {
   margin-bottom: 30px;
-  font-size: 1.1rem;    /* 改rem，手機不會爆字 */
-  line-height: 1.6;
+  font-size: 1.1rem;     *//* 改rem，手機不會爆字 */
+/*   line-height: 1.6;
   color: #eee;          /* 維持原配色 */
-}
+/* } */ 
 
-#challengeAnswer {
+/* #challengeAnswer {
   margin-bottom: 15px;
   font-size: 1rem;
 }
 
 /* === 手機響應式 === */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   body {
     padding: 10px;
   }
@@ -205,4 +205,4 @@ a.challenge-link:hover {
   .timer-text {
     font-size: 1rem;
   }
-}
+} */
