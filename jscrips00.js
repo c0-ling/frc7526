@@ -374,7 +374,7 @@ const players = {
       answer: "JULY",
       hint: "仔細觀察",
       type: "explore",
-      content:'<img src="img/secret.png" alt="特殊文字">'
+      content:'<img src="img/sercet.png" alt="特殊文字">'
     },
     {
       title: "探索題",
